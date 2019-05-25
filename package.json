@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "botkit": "^4.0.2"
+    "body-parser": "^1.19.0",
+    "botkit": "^4.0.2",
+    "express": "^4.17.0"
   },
   "devDependencies": {
     "@types/node": "^12.0.2",
