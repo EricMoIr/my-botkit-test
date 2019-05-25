@@ -21,3 +21,12 @@ export function start() {
         })
     })
 }
+
+(() => {
+    start().then(() => {
+        console.log("Finished starting app");
+    }).catch((e) => {
+        console.error("Shit happened")
+        console.error(e)
+    });
+})();
